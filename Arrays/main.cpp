@@ -64,10 +64,10 @@ void main()
 	double brr[SIZE];
 	FillRand(brr, SIZE);
 	Print(brr, SIZE);
-	cout << "Сумма элементов массива: " << Sum(brr, SIZE) << endl;
-	cout << "Средне-арифметическое элементов массива: " << Avg(brr, SIZE) << endl;
-	cout << "Минимальное значение в массиве: " << minValueIn(brr, SIZE) << endl;
-	cout << "Максимальное значение в массиве: " << maxValueIn(brr, SIZE) << endl;
+	//cout << "Сумма элементов массива: " << Sum(brr, SIZE) << endl;
+	//cout << "Средне-арифметическое элементов массива: " << Avg(brr, SIZE) << endl;
+	//cout << "Минимальное значение в массиве: " << minValueIn(brr, SIZE) << endl;
+	//cout << "Максимальное значение в массиве: " << maxValueIn(brr, SIZE) << endl;
 }
 
 void FillRand(int arr[], const int n)
